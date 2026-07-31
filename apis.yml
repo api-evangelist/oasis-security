@@ -1,8 +1,27 @@
 aid: oasis-security
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oasis-security.png
 name: Oasis Security
-description: 'Oasis Security is a company surfaced as a portfolio company of craft-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Oasis Security is an enterprise Non-Human Identity Management (NHIM) and
+  agentic access management platform that discovers, governs, and secures
+  non-human identities — service accounts, API keys, secrets, certificates, and
+  AI agents — across cloud and on-premises environments. The platform focuses on
+  understanding access intent rather than static roles, enabling enterprises to
+  adopt AI and automation securely at scale. Oasis targets enterprise security
+  teams through a sales-led (demo-request) motion rather than a self-service
+  developer product, and does not publish a public API, OpenAPI specification, or
+  developer portal; its product documentation is a login-gated knowledge base.
 url: https://raw.githubusercontent.com/api-evangelist/oasis-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Security
+- Non-Human Identity
+- Identity Management
+- AI Agents
+- Cloud Security
+- Cybersecurity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://oasis.security
+- type: Documentation
+  url: https://docs.oasis.security
+- type: Blog
+  url: https://www.oasis.security/blog
+- type: Support
+  url: https://www.oasis.security/demo
+- type: TermsOfService
+  url: https://www.oasis.security/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.oasis.security/legal/privacy-policy
+- type: Compliance
+  url: https://oasis.security
+- type: DomainSecurity
+  url: security/oasis-security-domain-security.yml
+- type: Conformance
+  url: conformance/oasis-security-conformance.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

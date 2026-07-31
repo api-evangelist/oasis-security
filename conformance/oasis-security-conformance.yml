@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+source: https://oasis.security
+notes: >-
+  Oasis Security publishes no public API or OpenAPI, so no technical API
+  standards (oauth2/oidc/rfc9457/etc.) can be asserted. The company does display
+  named security/compliance certifications on its public site.
+standards:
+- id: soc2-type-2
+  conforms: true
+  evidence: SOC 2 compliance badge displayed on oasis.security homepage
+- id: iso-27001
+  conforms: true
+  evidence: ISO/IEC 27001 certification logo displayed on oasis.security homepage
