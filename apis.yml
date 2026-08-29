@@ -34,6 +34,9 @@ description: >-
   developer product, and does not publish a public API, OpenAPI specification, or
   developer portal; its product documentation is a login-gated knowledge base.
 url: https://raw.githubusercontent.com/api-evangelist/oasis-security/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Oasis targets enterprise security teams through a sales-led (demo-request) motion rather than a self-service developer product, and does not publish a public API, OpenAPI specification, or developer p"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
