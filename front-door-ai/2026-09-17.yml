@@ -1,0 +1,31 @@
+# Front Door AI Index — oasis-security — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: oasis-security
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: oasis.security
+  final_host: www.oasis.security
+  ownership: own
+  owner: oasis-security
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 36
+  host_score: 36
+  density: 36.7
+  words: 981
+  tiers:
+    agentic: 17
+    core: 18
+    model: 1
+  ambiguous: 14
+  top_terms:
+    AI: 18
+    agent: 14
+    agentic: 10
+    AI agent: 5
+    ChatGPT: 1
+    chatbot: 1
+    copilot: 1
